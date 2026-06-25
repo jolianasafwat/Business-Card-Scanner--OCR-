@@ -8,7 +8,7 @@ def extract_business_card_info(thresh_img):
     text = pytesseract.image_to_string(thresh_img)
     
     email_pattern = r'[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+'
-    phone_pattern = r'[\+\(]?[1-9][0-9 .\-\(\)]{8,}[0-9]'
+    phone_pattern = r'[\+\(]?[0-9][0-9 .\-\(\)]{8,}[0-9]'
     
     emails = re.findall(email_pattern, text)
     phones = re.findall(phone_pattern, text)
