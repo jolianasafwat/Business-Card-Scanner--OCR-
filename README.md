@@ -3,6 +3,8 @@
 ## Project Description
 This project is an AI-powered Business Card Scanner built with Python. It utilizes OpenCV for image preprocessing (grayscale conversion and thresholding) and the Tesseract OCR engine to extract raw text from uploaded business card images. Regular Expressions are then applied to automatically parse contact information such as emails and phone numbers. The interactive interface is built using Streamlit.
 
+## Demo Link
+Here is the link to the video demonstration of the working application: [https://drive.google.com/file/d/1lEDpfQW5Ih_CWSYD1OGW53Mq4Z-xEh6T/view?usp=drive_link]
 
 ## How to Run Locally
 To run this project on your machine, follow these steps:
