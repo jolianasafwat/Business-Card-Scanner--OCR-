@@ -77,7 +77,7 @@ if uploaded_file is not None:
     with col1:
         st.markdown('<div class="upload-box">', unsafe_allow_html=True)
         st.subheader('Uploaded Image')
-        st.image(original_img, use_container_width=True)
+        st.image(original_img, channels='BGR', use_container_width=True)
         st.markdown('</div>', unsafe_allow_html=True)
 
     with col2:
